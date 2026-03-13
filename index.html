@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adventure Shop</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header header--transparent">
+    <div class="container header-content">
+      <h1 class="logo">Adventure Shop</h1>
+
+      <div class="search">
+        <input type="text" placeholder="Search products..." />
+      </div>
+
+      <div class="cart-icon" title="Cart">
+        🛒
+        <span class="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content container">
+      <p class="hero-badge">Tactical • Outdoor • Adventure</p>
+      <h2 class="hero-title">Gear up for the wild.</h2>
+      <p class="hero-subtitle">
+        Essentials built for storms, trails, and the unknown.
+      </p>
+      <a class="hero-btn" href="#shop">Start Exploring</a>
+    </div>
+  </section>
+
+  <!-- MAIN -->
+  <main class="container" id="shop">
+    <h3 class="section-title">Featured Gear</h3>
+
+    <section class="products-grid" id="productsGrid">
+      <!-- Rendered by JS -->
+    </section>
+  </main>
+
+  <!-- CART SIDEBAR -->
+  <aside class="cart-sidebar">
+    <h2>Your Cart</h2>
+
+    <div class="cart-items">
+      <p class="empty-cart">Your cart is empty.</p>
+    </div>
+
+    <div class="cart-footer">
+      <div class="total">
+        <span>Total:</span>
+        <strong>$0.00</strong>
+      </div>
+      <button class="checkout-btn">Checkout</button>
+    </div>
+  </aside>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
